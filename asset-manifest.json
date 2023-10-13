@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-demo/static/css/main.148b0c05.css",
-    "main.js": "/react-demo/static/js/main.1b3578b3.js",
-    "static/js/787.7bccd639.chunk.js": "/react-demo/static/js/787.7bccd639.chunk.js",
-    "index.html": "/react-demo/index.html",
-    "main.148b0c05.css.map": "/react-demo/static/css/main.148b0c05.css.map",
-    "main.1b3578b3.js.map": "/react-demo/static/js/main.1b3578b3.js.map",
-    "787.7bccd639.chunk.js.map": "/react-demo/static/js/787.7bccd639.chunk.js.map"
+    "main.css": "/krpcreation/static/css/main.148b0c05.css",
+    "main.js": "/krpcreation/static/js/main.838716e6.js",
+    "static/js/787.7bccd639.chunk.js": "/krpcreation/static/js/787.7bccd639.chunk.js",
+    "index.html": "/krpcreation/index.html",
+    "main.148b0c05.css.map": "/krpcreation/static/css/main.148b0c05.css.map",
+    "main.838716e6.js.map": "/krpcreation/static/js/main.838716e6.js.map",
+    "787.7bccd639.chunk.js.map": "/krpcreation/static/js/787.7bccd639.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.148b0c05.css",
-    "static/js/main.1b3578b3.js"
+    "static/js/main.838716e6.js"
   ]
 }
