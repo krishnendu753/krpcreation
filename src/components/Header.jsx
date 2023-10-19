@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import * as Icon from 'react-bootstrap-icons';
 
-export default function Header() {
+export default function Header({loginModule}) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -34,7 +34,7 @@ export default function Header() {
                 {/* <Navbar.Toggle /> */}
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
-                        <Button className='headerButton' variant="primary" type="button" >
+                        <Button className='headerButton' variant="primary" type="button" onClick={loginModule}>
                             SignIn
                         </Button>
                     </Navbar.Text>

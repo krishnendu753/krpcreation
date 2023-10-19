@@ -10,6 +10,7 @@ function Home() {
     const [data, setData] = useState({ email: "", password: "" });
     const [dataForgot, setDataForgot] = useState({ forgotEmail: "" });
     const [checkData, setCheckData] = useState(false);
+    const [showLoginModule, setLoginModule] = useState(false);
     // useEffect(() => {
     //     console.log(view)
     // });
@@ -61,12 +62,15 @@ function Home() {
         resetData();
         setView("forgotpassword");
     }
+    function handleChangeLoginModule() {
+        setLoginModule(true);
+    }
     return (
         <>
-            <Header />
+            <Header loginModule={handleChangeLoginModule}/>
             <div className="body">
                 {view == "signin" ?
-                    <Login handleChange={handleChange} checkHandleChange={checkHandleChange} submitData={submitData} resetData={resetData} signUpData={signUpData} forgotPassword={forgotPassword} data={data} checkData={checkData} />
+                    <Login handleChange={handleChange} checkHandleChange={checkHandleChange} submitData={submitData} resetData={resetData} signUpData={signUpData} forgotPassword={forgotPassword} data={data} checkData={checkData} moduleView={showLoginModule}/>
                     : view == "forgotpassword" ?
                         <Forgotpassword handleChangeForgot={handleChangeForgot} dataForgot={dataForgot} onReturn={handleReturn} signUpData={signUpData} submitDataForgot={submitDataForgot} resetDataForgot={resetDataForgot} />
                         :

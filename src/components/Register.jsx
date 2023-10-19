@@ -14,7 +14,7 @@ function Register({ onReturn }) {
                 <Row className="justify-content-md-center">
                     <Col md={{ span: 4, offset: 4 }} className="register-bodyContain">
                         <h3>Sign Up</h3>
-                        <Scrollbars style={{ height: 275 }}>
+                        <Scrollbars style={{ height: 295 }}>
                             <Form className="formStyle">
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>Name</Form.Label>
@@ -62,12 +62,15 @@ function Register({ onReturn }) {
                             <Button className='allButton' variant="primary" type="button" onClick={saveSignUpData}>
                                 Save
                             </Button>
-                            <Button className='allButton' variant="danger" type="button" onClick={resetSignUpData}>
+                            {/* <Button className='allButton' variant="danger" type="button" onClick={resetSignUpData}>
                                 Reset
                             </Button>
                             <Button className='allButton' variant="warning" type="button" onClick={onReturn}>
                                 Back To SignIn
-                            </Button>
+                            </Button> */}
+                        </div>
+                        <div className="mt-3 text-center">
+                            <a href="#" onClick={onReturn}>Back To SignIn</a>
                         </div>
                     </Col>
                 </Row>

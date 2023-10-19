@@ -17,15 +17,18 @@ function Forgotpassword({ handleChangeForgot, dataForgot, onReturn, signUpData, 
                             <Button className='allButton' variant="primary" type="button" onClick={submitDataForgot}>
                                 Submit
                             </Button>
-                            <Button className='allButton' variant="warning" type="button" onClick={onReturn}>
+                            {/* <Button className='allButton' variant="warning" type="button" onClick={onReturn}>
                                 Back to signin
                             </Button>
-                            {/* <Button className='allButton' variant="success" type="button" onClick={signUpData}>
+                            <Button className='allButton' variant="success" type="button" onClick={signUpData}>
                                 Back to signup
                             </Button>
                             <Button className='allButton' variant="danger" type="button" onClick={resetDataForgot}>
                                 Reset
                             </Button> */}
+                        </div>
+                        <div className="mt-3 text-center">
+                            <a href="#" onClick={onReturn}>Back To SignIn</a>
                         </div>
                     </Col>
                 </Row>
