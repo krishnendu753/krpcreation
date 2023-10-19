@@ -4,28 +4,28 @@ function Forgotpassword({ handleChangeForgot, dataForgot, onReturn, signUpData, 
     return (
         <div>
             <Container>
-                <h3>Forgot Password</h3>
                 <Row className="justify-content-md-center">
-                    <Col xs={4}>
+                    <Col md={{ span: 4, offset: 4 }} className="forgotPass-bodyContain">
+                        <h3 className="text-center mb-4">Forgot Password</h3>
                         <Form className="formStyle">
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control value={dataForgot.forgotEmail} onChange={handleChangeForgot} name='forgotEmail' type="text" placeholder="Enter email" />
                             </Form.Group>
                         </Form>
-                        <div className='buttonSection'>
-                            <Button className='allButtonForgotPassword' variant="primary" type="button" onClick={submitDataForgot}>
+                        <div  className="buttonSection">
+                            <Button className='allButton' variant="primary" type="button" onClick={submitDataForgot}>
                                 Submit
                             </Button>
-                            <Button className='allButtonForgotPassword' variant="warning" type="button" onClick={onReturn}>
+                            <Button className='allButton' variant="warning" type="button" onClick={onReturn}>
                                 Back to signin
                             </Button>
-                            <Button className='allButtonForgotPassword' variant="success" type="button" onClick={signUpData}>
+                            {/* <Button className='allButton' variant="success" type="button" onClick={signUpData}>
                                 Back to signup
                             </Button>
-                            <Button className='allButtonForgotPassword' variant="danger" type="button" onClick={resetDataForgot}>
+                            <Button className='allButton' variant="danger" type="button" onClick={resetDataForgot}>
                                 Reset
-                            </Button>
+                            </Button> */}
                         </div>
                     </Col>
                 </Row>

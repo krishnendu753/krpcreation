@@ -4,7 +4,7 @@ function Login({ handleChange, checkHandleChange, submitData, resetData, signUpD
     return (
         <Container>
             <Row className="justify-content-center">
-                <Col md={4} className="login-contain">
+                <Col md={{ span: 4, offset: 4 }} className="login-bodyContain">
                     <h3 className="text-center mb-4">Sign In</h3>
                     <Form className="formStyle">
                         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -22,7 +22,7 @@ function Login({ handleChange, checkHandleChange, submitData, resetData, signUpD
                         </Form.Group>
                     </Form>
 
-                    <div className="d-flex justify-content-between">
+                    <div className="buttonSection">
                         <Button className="allButton" variant="primary" type="button" onClick={submitData}>
                             Sign In
                         </Button>
