@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/krpcreation/static/css/main.0ea57d32.css",
-    "main.js": "/krpcreation/static/js/main.927050e8.js",
+    "main.css": "/krpcreation/static/css/main.c9db0969.css",
+    "main.js": "/krpcreation/static/js/main.d70813a0.js",
     "static/js/787.7bccd639.chunk.js": "/krpcreation/static/js/787.7bccd639.chunk.js",
     "index.html": "/krpcreation/index.html",
-    "main.0ea57d32.css.map": "/krpcreation/static/css/main.0ea57d32.css.map",
-    "main.927050e8.js.map": "/krpcreation/static/js/main.927050e8.js.map",
+    "main.c9db0969.css.map": "/krpcreation/static/css/main.c9db0969.css.map",
+    "main.d70813a0.js.map": "/krpcreation/static/js/main.d70813a0.js.map",
     "787.7bccd639.chunk.js.map": "/krpcreation/static/js/787.7bccd639.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ea57d32.css",
-    "static/js/main.927050e8.js"
+    "static/css/main.c9db0969.css",
+    "static/js/main.d70813a0.js"
   ]
 }
